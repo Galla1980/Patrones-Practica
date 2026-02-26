@@ -1,16 +1,6 @@
-Ejercicio  – Sistema de Pagos para E-commerce
+# Patrón Strategy – Sistema de Ventas
 
-
-
-Estás desarrollando un sistema de consola para una tienda online.
-
-
-
-\# Patrón Strategy – Sistema de Ventas
-
-
-
-\## Consigna
+## Consigna
 
 
 
@@ -22,11 +12,11 @@ El sistema debe permitir:
 
 
 
-\- Seleccionar el método de pago.
+- Seleccionar el método de pago.
 
-\- Procesar el pago según la estrategia elegida.
+- Procesar el pago según la estrategia elegida.
 
-\- Permitir cancelar la operación.
+- Permitir cancelar la operación.
 
 
 
@@ -34,13 +24,13 @@ Métodos implementados:
 
 
 
-\- Tarjeta de Crédito
+- Tarjeta de Crédito
 
-\- Mercado Pago
+- Mercado Pago
 
 
 
-\## Objetivo del patrón
+## Objetivo del patrón
 
 
 
@@ -48,13 +38,13 @@ Aplicar el patrón Strategy para encapsular distintos algoritmos de pago y permi
 
 
 
-\## Implementación
+## Implementación
 
 
 
-\- `IMetodoPago` define la estrategia.
+- `IMetodoPago` define la estrategia.
 
-\- `TarjetaCredito` y `MercadoPago` implementan estrategias concretas.
+- `TarjetaCredito` y `MercadoPago` implementan estrategias concretas.
 
-\- `Compra` utiliza la estrategia seleccionada.
+- `Compra` utiliza la estrategia seleccionada.
 
