@@ -1,4 +1,4 @@
-# Ejercicio 2 – Plataforma de Streaming – Proxy
+Plataforma de Streaming – Proxy
 
 Estás desarrollando una plataforma de streaming.
 
