@@ -43,7 +43,7 @@ namespace Visitor___Editor_grafico
                         continue;
                     default:
                         Console.WriteLine("Opcion no valida");
-                        break;
+                        continue;
                 }
                 Console.Clear();
                 //Menu de operaciones
@@ -62,12 +62,15 @@ namespace Visitor___Editor_grafico
                     {
                         case "1":
                             visitor = new VisitorCalcularArea();
+                            figura.Aceptar(visitor);
                             break;
                         case "2":
                             visitor = new VisitorCalcularPerimetro();
+                            figura.Aceptar(visitor);
                             break;
                         case "3":
                             visitor = new VisitorExportarXML();
+                            figura.Aceptar(visitor);
                             break;
                         case "4":
                             Console.Clear();
@@ -76,7 +79,6 @@ namespace Visitor___Editor_grafico
                             Console.WriteLine("Opcion no valida");
                             break;
                     }
-                    figura.Aceptar(visitor);
                     Console.WriteLine("Presione una tecla para continuar");
                     Console.ReadLine();
                     Console.Clear();
