@@ -1,4 +1,4 @@
-# Ejercicio 3 – Editor Gráfico – Visitor
+# Editor Gráfico – Visitor
 
 Estás desarrollando un editor gráfico que trabaja con diversas figuras geométricas. El objetivo es permitir la extensión de funcionalidades sin alterar la estructura interna de las clases de las figuras.
 
