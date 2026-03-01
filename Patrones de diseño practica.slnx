@@ -4,4 +4,5 @@
   <Project Path="Proxy - Streaming peliculas/Proxy - Streaming peliculas.csproj" Id="da3af77f-88ad-4f34-9aa2-5b82c1f377aa" />
   <Project Path="State - Servicio logistica/State - Servicio logistica.csproj" Id="a46361c2-ea69-48ba-919d-5673a1fadbd0" />
   <Project Path="Strategy - Ventas/Strategy - Ventas.csproj" Id="9f41f3fc-f0a3-4112-a1e7-454e715d3428" />
+  <Project Path="Visitor - Editor grafico/Visitor - Editor grafico.csproj" Id="56f3daac-26ac-4824-838f-2750a739e45a" />
 </Solution>
